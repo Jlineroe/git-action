@@ -17,7 +17,7 @@ jobs:
               id: meta
               uses: docker/metadata-action@v5
               with:
-                images: ${{ github.repository }}
+                images: jlinero/git-action
                 tags: |
                     type=ref,event=branch
                     type=sha,format=long
